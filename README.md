@@ -8,7 +8,7 @@ This is the implementation of our ICIP-16 work with titled [Ceci n'est pas une p
 
 The project is open source under BSD-3 license (see the `LICENSE` file). Codes can be used freely only for academic purpose.
 
-<img src="icip2016.gif" width="100%">
+<img src="ICIP2016.gif" width="100%">
 
 ## Citation
 If you find this code useful for your research, please cite
