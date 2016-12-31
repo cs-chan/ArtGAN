@@ -4,7 +4,7 @@ Released on December 20, 2016
 
 ## Description
 
-This is the implementation of Tan et al.'s ICIP-16 work [Ceci n'est pas une pipe: A Deep Convolutional Network for Fine-art Paintings Classification](http://www.cs-chan.com/doc/ICIP2016.pdf).
+This is the implementation of our ICIP-16 work with titled [Ceci n'est pas une pipe: A Deep Convolutional Network for Fine-art Paintings Classification](http://www.cs-chan.com/doc/ICIP2016.pdf).
 
 The project is open source under BSD-3 license (see the `LICENSE` file). Codes can be used freely only for academic purpose.
 
