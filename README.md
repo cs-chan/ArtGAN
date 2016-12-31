@@ -32,7 +32,7 @@ The codes are based on [caffe](https://github.com/BVLC/caffe).
 
 This repository does not include the Wikiart dataset used. For the list of the styles, artists, and genres used, please refer to the [ICIP supplementary material](http://www.cs-chan.com/doc/ICIP2016_supp.pdf)
 
-For the full list of paintings used, please refer to the [Saleh, B., & Elgammal, A. (2015). Large-scale Classification of Fine-Art Paintings:Learning The Right Metric on The Right Feature](https://arxiv.org/pdf/1505.00855v1.pdf)
+For the full list of paintings used, please refer to the [Saleh & Elgammal (2015). Large-scale Classification of Fine-Art Paintings:Learning The Right Metric on The Right Feature](https://arxiv.org/pdf/1505.00855v1.pdf)
 
 ## Installation and Running
 
@@ -44,17 +44,17 @@ Option 1:
 ```
 Artist
 ```
-[alexnet_artist_train.caffemodel](https://arxiv.org/pdf/1505.00855v1.pdf)
+[Alexnet_Artist_train.caffemodel](https://arxiv.org/pdf/1505.00855v1.pdf)
 
 ```
 Genre
 ```
-[alexnet_genre_train.caffemodel](https://arxiv.org/pdf/1505.00855v1.pdf)
+[Alexnet_Genre_train.caffemodel](https://arxiv.org/pdf/1505.00855v1.pdf)
 
 ```
 Style
 ```
-[alexnet_style_train.caffemodel](https://arxiv.org/pdf/1505.00855v1.pdf)
+[Alexnet_Style_train.caffemodel](https://arxiv.org/pdf/1505.00855v1.pdf)
 
 
 Option 2: 
