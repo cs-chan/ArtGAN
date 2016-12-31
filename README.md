@@ -37,12 +37,14 @@ For the full list of paintings used, please refer to the [Saleh, B., & Elgammal,
 ## Installation and Running
 
 1. New model can be trained via the following command (using artist as example):
-
-./path/to/folder/alexnet_finetune_artist/train_caffenet.sh
+```matlab
+>> ./path/to/folder/alexnet_finetune_artist/train_caffenet.sh
+```
 
 2. To compute the accuracy of a given testing set:
-
-./path/to/folder/alexnet_finetune_artist/test_caffenet.sh
+```matlab
+>> ./path/to/folder/alexnet_finetune_artist/test_caffenet.sh
+```
 
 *Note that users are expected to modify the corresponding files to the correct path to work properly. 
 
