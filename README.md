@@ -36,6 +36,8 @@ For the full list of paintings used, please refer to the [Saleh, B., & Elgammal,
 
 ## Installation and Running
 
+Users are required to install Caffe Library from https://github.com/BVLC/caffe
+
 1. New model can be trained via the following command (using artist as example):
 ```matlab
 >> ./path/to/folder/alexnet_finetune_artist/train_caffenet.sh
