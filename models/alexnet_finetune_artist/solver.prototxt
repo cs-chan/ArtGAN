@@ -1,0 +1,14 @@
+net: "models/alexnet_finetune_artist/train_val.prototxt"
+test_iter: 320
+test_interval: 98
+base_lr: 0.001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 5000
+display: 20
+max_iter: 20000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 10000
+snapshot_prefix: "models/alexnet_finetune_artist/caffe_alexnet_artist_train"
+solver_mode: GPU

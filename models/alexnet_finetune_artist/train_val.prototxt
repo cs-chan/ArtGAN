@@ -1,5 +1,23 @@
 name: "AlexNet"
-force_backward: true
+layer {
+  name: "data"
+  type: "Data"
+  top: "data"
+  top: "label"
+  include {
+    phase: TRAIN
+  }
+  transform_param {
+    mirror: true
+    crop_size: 227
+    mean_file: "data/artist/artist_mean.binaryproto"
+  }
+  data_param {
+    source: "examples/artist/artist_train_lmdb"
+    batch_size: 128
+    backend: LMDB
+  }
+}
 layer {
   name: "data"
   type: "Data"
@@ -15,7 +33,7 @@ layer {
   }
   data_param {
     source: "examples/artist/artist_val_lmdb"
-    batch_size: 128
+    batch_size: 20
     backend: LMDB
   }
 }
@@ -36,6 +54,14 @@ layer {
     num_output: 96
     kernel_size: 11
     stride: 4
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 0
+    }
   }
 }
 layer {
@@ -84,6 +110,14 @@ layer {
     pad: 2
     kernel_size: 5
     group: 2
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 0.1
+    }
   }
 }
 layer {
@@ -131,6 +165,14 @@ layer {
     num_output: 384
     pad: 1
     kernel_size: 3
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 0
+    }
   }
 }
 layer {
@@ -157,6 +199,14 @@ layer {
     pad: 1
     kernel_size: 3
     group: 2
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 0.1
+    }
   }
 }
 layer {
@@ -183,6 +233,14 @@ layer {
     pad: 1
     kernel_size: 3
     group: 2
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 0.1
+    }
   }
 }
 layer {
@@ -217,6 +275,14 @@ layer {
   }
   inner_product_param {
     num_output: 4096
+    weight_filler {
+      type: "gaussian"
+      std: 0.005
+    }
+    bias_filler {
+      type: "constant"
+      value: 0.1
+    }
   }
 }
 layer {
@@ -249,6 +315,14 @@ layer {
   }
   inner_product_param {
     num_output: 4096
+    weight_filler {
+      type: "gaussian"
+      std: 0.005
+    }
+    bias_filler {
+      type: "constant"
+      value: 0.1
+    }
   }
 }
 layer {
@@ -271,8 +345,24 @@ layer {
   type: "InnerProduct"
   bottom: "fc7"
   top: "fc8_artist"
+  param {
+    lr_mult: 10
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 20
+    decay_mult: 0
+  }
   inner_product_param {
     num_output: 23
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 1
+    }
   }
 }
 layer {
@@ -281,4 +371,14 @@ layer {
   bottom: "fc8_artist"
   bottom: "label"
   top: "accuracy"
+  include {
+    phase: TEST
+  }
+}
+layer {
+  name: "loss"
+  type: "SoftmaxWithLoss"
+  bottom: "fc8_artist"
+  bottom: "label"
+  top: "loss"
 }

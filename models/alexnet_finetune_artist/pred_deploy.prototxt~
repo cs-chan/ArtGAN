@@ -1,23 +1,11 @@
 name: "AlexNet"
 force_backward: true
-layer {
-  name: "data"
-  type: "Data"
-  top: "data"
-  top: "label"
-  include {
-    phase: TEST
-  }
-  transform_param {
-    mirror: false
-    crop_size: 227
-    mean_file: "data/artist/artist_mean.binaryproto"
-  }
-  data_param {
-    source: "examples/artist/artist_val_lmdb"
-    batch_size: 128
-    backend: LMDB
-  }
+input: "data"
+input_shape{
+  dim: 1
+  dim: 3
+  dim: 227
+  dim: 227
 }
 layer {
   name: "conv1"
@@ -275,10 +263,9 @@ layer {
     num_output: 23
   }
 }
-layer {
-  name: "accuracy"
-  type: "Accuracy"
+layer{
+  name: "prob"
   bottom: "fc8_artist"
-  bottom: "label"
-  top: "accuracy"
+  top: "prob"
+  type: "Softmax"
 }
