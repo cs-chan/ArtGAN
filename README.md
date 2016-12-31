@@ -6,7 +6,7 @@ Released on December 20, 2016
 
 This is the implementation of Tan et al.'s ICIP-16 work [Ceci n'est pas une pipe: A Deep Convolutional Network for Fine-art Paintings Classification](http://www.cs-chan.com/doc/ICIP2016.pdf).
 
-The project is open source under BSD-3 license (see the `LICENSE` file). Codes can be used freely only for academic purpose. If you want to apply it to industrial products, please send an email to Shizhan Zhu at `zhshzhutah2@gmail.com` first.
+The project is open source under BSD-3 license (see the `LICENSE` file). Codes can be used freely only for academic purpose.
 
 ## Citation
 If you use the codes as part of your research project, please cite our work as follows:
@@ -30,7 +30,7 @@ If you use the codes as part of your research project, please cite our work as f
 ## Dependency
 The codes are based on [caffe](https://github.com/BVLC/caffe).
 
-This repository does not include the Wikiart dataset used. For the list of the styles, artists, and genres used, please refer to the [ICIP supplementary material](http://www.cs-chan.com/publication.html)
+This repository does not include the Wikiart dataset used. For the list of the styles, artists, and genres used, please refer to the [ICIP supplementary material](http://www.cs-chan.com/doc/ICIP2016_supp.pdf)
 
 For the full list of paintings used, please refer to the [Saleh, B., & Elgammal, A. (2015). Large-scale Classification of Fine-Art Paintings:Learning The Right Metric on The Right Feature](https://arxiv.org/pdf/1505.00855v1.pdf)
 
@@ -45,8 +45,6 @@ For the full list of paintings used, please refer to the [Saleh, B., & Elgammal,
 ./path/to/folder/alexnet_finetune_artist/test_caffenet.sh
 
 *Note that users are expected to modify the corresponding files to the correct path to work properly. 
-
-Users may contact us at either of the following email for any question regarding our paper. 
 
 Enjoy! :P
 
