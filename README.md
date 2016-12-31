@@ -30,9 +30,9 @@ If you use the codes as part of your research project, please cite our work as f
 ## Dependency
 The codes are based on [caffe](https://github.com/BVLC/caffe).
 
-This repository does not include the Wikiart dataset used. For the list of the styles, artists, and genres used, please refer to the [ICIP supplementary material](http://www.cs-chan.com/doc/ICIP2016_supp.pdf)
+This repository does not include the Wikiart dataset used. For the list of the styles, artists, and genres used, please refer to the [ICIP supplementary material](http://www.cs-chan.com/doc/ICIP2016_supp.pdf).
 
-For the full list of paintings used, please refer to the [Saleh & Elgammal (2015). Large-scale Classification of Fine-Art Paintings: Learning The Right Metric on The Right Feature](https://arxiv.org/pdf/1505.00855v1.pdf)
+For the full list of paintings used, please refer to the [Saleh & Elgammal (2015). Large-scale Classification of Fine-Art Paintings: Learning The Right Metric on The Right Feature](https://arxiv.org/pdf/1505.00855v1.pdf).
 
 ## Installation and Running
 
