@@ -36,7 +36,10 @@ For the full list of paintings used, please refer to the [Saleh, B., & Elgammal,
 
 ## Installation and Running
 
-Users are required to install Caffe Library from https://github.com/BVLC/caffe
+Users are required to install Caffe Library from https://github.com/BVLC/caffe. 
+
+This is the Alexnet model pre-trained on ImageNet classification task and fine-tuned on 431 car models in Wikiart dataset.
+[alexnet_artist_train.caffemodel](https://arxiv.org/pdf/1505.00855v1.pdf)
 
 1. New model can be trained via the following command (using artist as example):
 ```matlab
