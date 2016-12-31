@@ -222,7 +222,7 @@ layer {
 layer {
   name: "accuracy"
   type: "Accuracy"
-  bottom: "fc8_genre"
+  bottom: "fc8_artist"
   bottom: "label"
   top: "accuracy"
 }

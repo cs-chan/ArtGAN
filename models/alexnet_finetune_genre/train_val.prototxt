@@ -1,5 +1,23 @@
 name: "AlexNet"
-force_backward: true
+layer {
+  name: "data"
+  type: "Data"
+  top: "data"
+  top: "label"
+  include {
+    phase: TRAIN
+  }
+  transform_param {
+    mirror: true
+    crop_size: 227
+    mean_file: "data/genre/genre_mean.binaryproto"
+  }
+  data_param {
+    source: "examples/genre/genre_train_lmdb"
+    batch_size: 128
+    backend: LMDB
+  }
+}
 layer {
   name: "data"
   type: "Data"
@@ -15,7 +33,7 @@ layer {
   }
   data_param {
     source: "examples/genre/genre_val_lmdb"
-    batch_size: 128
+    batch_size: 20
     backend: LMDB
   }
 }
@@ -24,10 +42,26 @@ layer {
   type: "Convolution"
   bottom: "data"
   top: "conv1"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
   convolution_param {
     num_output: 96
     kernel_size: 11
     stride: 4
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 0
+    }
   }
 }
 layer {
@@ -63,11 +97,27 @@ layer {
   type: "Convolution"
   bottom: "pool1"
   top: "conv2"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
   convolution_param {
     num_output: 256
     pad: 2
     kernel_size: 5
     group: 2
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 0.1
+    }
   }
 }
 layer {
@@ -103,10 +153,26 @@ layer {
   type: "Convolution"
   bottom: "pool2"
   top: "conv3"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
   convolution_param {
     num_output: 384
     pad: 1
     kernel_size: 3
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 0
+    }
   }
 }
 layer {
@@ -120,11 +186,27 @@ layer {
   type: "Convolution"
   bottom: "conv3"
   top: "conv4"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
   convolution_param {
     num_output: 384
     pad: 1
     kernel_size: 3
     group: 2
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 0.1
+    }
   }
 }
 layer {
@@ -138,11 +220,27 @@ layer {
   type: "Convolution"
   bottom: "conv4"
   top: "conv5"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
   convolution_param {
     num_output: 256
     pad: 1
     kernel_size: 3
     group: 2
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 0.1
+    }
   }
 }
 layer {
@@ -167,8 +265,24 @@ layer {
   type: "InnerProduct"
   bottom: "pool5"
   top: "fc6"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
   inner_product_param {
     num_output: 4096
+    weight_filler {
+      type: "gaussian"
+      std: 0.005
+    }
+    bias_filler {
+      type: "constant"
+      value: 0.1
+    }
   }
 }
 layer {
@@ -191,8 +305,24 @@ layer {
   type: "InnerProduct"
   bottom: "fc6"
   top: "fc7"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
   inner_product_param {
     num_output: 4096
+    weight_filler {
+      type: "gaussian"
+      std: 0.005
+    }
+    bias_filler {
+      type: "constant"
+      value: 0.1
+    }
   }
 }
 layer {
@@ -215,8 +345,24 @@ layer {
   type: "InnerProduct"
   bottom: "fc7"
   top: "fc8_genre"
+  param {
+    lr_mult: 10
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 20
+    decay_mult: 0
+  }
   inner_product_param {
     num_output: 10
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 1
+    }
   }
 }
 layer {
@@ -225,4 +371,14 @@ layer {
   bottom: "fc8_genre"
   bottom: "label"
   top: "accuracy"
+  include {
+    phase: TEST
+  }
+}
+layer {
+  name: "loss"
+  type: "SoftmaxWithLoss"
+  bottom: "fc8_genre"
+  bottom: "label"
+  top: "loss"
 }

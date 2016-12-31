@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+/home/testing/caffe/build/tools/caffe train \
+    --solver=models/genre_alexnet_finetune/solver.prototxt \
+    --weights=models/genre_alexnet_finetune/bvlc_alexnet.caffemodel
