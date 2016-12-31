@@ -44,7 +44,7 @@ Option 1:
 ```
 Artist
 ```
-- [Alexnet_Artist_train.caffemodel](http://www.cs-chan.com/source/ICIP2016/Alexnet_artist_finetune.caffemodel)
+- [Alexnet_Artist_train.caffemodel](http://www.cs-chan.com/source/ICIP2016/Alexnet_genre_finetune.caffemodel)
 
 ```
 Genre
