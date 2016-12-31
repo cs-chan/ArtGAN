@@ -36,9 +36,11 @@ For the full list of paintings used, please refer to the [Saleh, B., & Elgammal,
 
 ## Installation and Running
 
-Users are required to install Caffe Library from https://github.com/BVLC/caffe. 
+1. Users are required to install Caffe Library from https://github.com/BVLC/caffe. 
+2. Please choose one of the following options: 
 
-These are the Alexnet models pre-trained on ImageNet classification task and fine-tuned on 3 different class in Wikiart dataset.
+Option 1: 
+- These are the Alexnet models pre-trained on ImageNet classification task and fine-tuned on 3 different class in Wikiart dataset.
 ```
 Artist
 ```
@@ -55,12 +57,13 @@ Style
 [alexnet_style_train.caffemodel](https://arxiv.org/pdf/1505.00855v1.pdf)
 
 
-1. New model can be trained via the following command (using artist as example):
+Option 2: 
+- New model can be trained via the following command (using artist as example):
 ```
 >> ./path/to/folder/alexnet_finetune_artist/train_caffenet.sh
 ```
 
-2. To compute the accuracy of a given testing set:
+- To compute the accuracy of a given testing set:
 ```
 >> ./path/to/folder/alexnet_finetune_artist/test_caffenet.sh
 ```
