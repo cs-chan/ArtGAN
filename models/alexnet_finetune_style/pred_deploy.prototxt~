@@ -219,13 +219,3 @@ layer {
     num_output: 27
   }
 }
-layer {
-  name: "accuracy"
-  type: "Accuracy"
-  bottom: "fc8_style"
-  bottom: "label"
-  top: "accuracy"
-  include {
-    phase: TEST
-  }
-}
