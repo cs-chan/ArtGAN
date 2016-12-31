@@ -38,16 +38,27 @@ For the full list of paintings used, please refer to the [Saleh, B., & Elgammal,
 
 Users are required to install Caffe Library from https://github.com/BVLC/caffe. 
 
-This is the Alexnet model pre-trained on ImageNet classification task and fine-tuned on 431 car models in Wikiart dataset.
+These are the Alexnet models pre-trained on ImageNet classification task and fine-tuned on 3 different class in Wikiart dataset.
+```
+Artist
 [alexnet_artist_train.caffemodel](https://arxiv.org/pdf/1505.00855v1.pdf)
+```
+```
+Genre
+[alexnet_genre_train.caffemodel](https://arxiv.org/pdf/1505.00855v1.pdf)
+```
+```
+Style
+[alexnet_style_train.caffemodel](https://arxiv.org/pdf/1505.00855v1.pdf)
+```
 
 1. New model can be trained via the following command (using artist as example):
-```matlab
+```
 >> ./path/to/folder/alexnet_finetune_artist/train_caffenet.sh
 ```
 
 2. To compute the accuracy of a given testing set:
-```matlab
+```
 >> ./path/to/folder/alexnet_finetune_artist/test_caffenet.sh
 ```
 
