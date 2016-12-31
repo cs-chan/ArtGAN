@@ -41,16 +41,19 @@ Users are required to install Caffe Library from https://github.com/BVLC/caffe.
 These are the Alexnet models pre-trained on ImageNet classification task and fine-tuned on 3 different class in Wikiart dataset.
 ```
 Artist
-[alexnet_artist_train.caffemodel](https://arxiv.org/pdf/1505.00855v1.pdf)
 ```
+[alexnet_artist_train.caffemodel](https://arxiv.org/pdf/1505.00855v1.pdf)
+
 ```
 Genre
-[alexnet_genre_train.caffemodel](https://arxiv.org/pdf/1505.00855v1.pdf)
 ```
+[alexnet_genre_train.caffemodel](https://arxiv.org/pdf/1505.00855v1.pdf)
+
 ```
 Style
-[alexnet_style_train.caffemodel](https://arxiv.org/pdf/1505.00855v1.pdf)
 ```
+[alexnet_style_train.caffemodel](https://arxiv.org/pdf/1505.00855v1.pdf)
+
 
 1. New model can be trained via the following command (using artist as example):
 ```
