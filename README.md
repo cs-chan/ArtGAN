@@ -40,7 +40,7 @@ For the full list of paintings used, please refer to the [Saleh & Elgammal (2015
 2. Please choose one of the following options: 
 
 Option 1: 
-- These are the Alexnet models pre-trained on ImageNet classification task and fine-tuned on 3 different class in Wikiart dataset.
+- These are the Alexnet models pre-trained on ImageNet classification task and fine-tuned on 3 different classes in the Wikiart dataset.
 ```
 Artist
 ```
