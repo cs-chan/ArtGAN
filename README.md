@@ -41,10 +41,7 @@ For the full list of paintings used, please refer to the [Saleh & Elgammal (2015
 
 Option 1: 
 - These are the Alexnet models pre-trained on ImageNet classification task and fine-tuned on 3 different class in Wikiart dataset.
-```
-Artist
-```
-[Alexnet_Artist_train.caffemodel](https://arxiv.org/pdf/1505.00855v1.pdf)
+a. Artist - [Alexnet_Artist_train.caffemodel](https://arxiv.org/pdf/1505.00855v1.pdf)
 
 ```
 Genre
