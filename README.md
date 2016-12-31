@@ -8,21 +8,21 @@ This is the implementation of our ICIP-16 work with titled [Ceci n'est pas une p
 
 The project is open source under BSD-3 license (see the `LICENSE` file). Codes can be used freely only for academic purpose.
 
+<img src="icip2016.gif" width="100%">
+
 ## Citation
-If you use the codes as part of your research project, please cite our work as follows:
+If you find this code useful for your research, please cite
 ```
-@inproceedings{TanCAT16,
+@inproceedings{TanICIP16,
   author    = {Wei Ren Tan and
                Chee Seng Chan and
                Hern{\'{a}}n E. Aguirre and
                Kiyoshi Tanaka},
   title     = {Ceci n'est pas une pipe: {A} deep convolutional network for fine-art
                paintings classification},
-  booktitle = {2016 {IEEE} International Conference on Image Processing, {ICIP} 2016,
-               Phoenix, AZ, USA, September 25-28, 2016},
+  booktitle = {IEEE International Conference on Image Processing {ICIP}},
   pages     = {3703--3707},
   year      = {2016},
-  url       = {http://dx.doi.org/10.1109/ICIP.2016.7533051},
   doi       = {10.1109/ICIP.2016.7533051},
 }
 ```
