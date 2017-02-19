@@ -32,9 +32,9 @@ The codes are based on [caffe](https://github.com/BVLC/caffe).
 <!---
 This repository does not include the Wikiart dataset used. 
 --->
-For the list of the styles, artists, and genres used, please refer to the [ICIP supplementary material](http://www.cs-chan.com/doc/ICIP2016_supp.pdf).
+For the list of the styles, artists, and genres used, please refer to our [ICIP supplementary material](http://www.cs-chan.com/doc/ICIP2016_supp.pdf).
 
-For the details of the WikiArt dataset used, please refer to the [WikiArt Dataset](https://github.com/cs-chan/ICIP2016-PC/tree/master/WikiArt%20Dataset) folder.
+For the details of the WikiArt dataset used in our ICIP2016 paper, please refer to the [WikiArt Dataset](https://github.com/cs-chan/ICIP2016-PC/tree/master/WikiArt%20Dataset) folder.
 
 <!---
 For the full list of paintings used, please refer to [Saleh & Elgammal (2015). Large-scale Classification of Fine-Art Paintings: Learning The Right Metric on The Right Feature](https://arxiv.org/pdf/1505.00855v1.pdf).
@@ -43,8 +43,8 @@ For the full list of paintings used, please refer to [Saleh & Elgammal (2015). L
 ## Installation and Running
 
 1. Users are required to install Caffe Library from https://github.com/BVLC/caffe. 
-2. Users can required to download the Wikiart Dataset provided here for a fair comparison to our ICIP2016 paper.
-2. Please choose one of the following options: 
+2. Users can required to download the Wikiart Dataset provided [here](https://github.com/cs-chan/ICIP2016-PC/tree/master/WikiArt%20Dataset) for a fair comparison to our ICIP2016 paper.
+3. Please choose one of the following options: 
 
 Option 1: 
 - These are the Alexnet models pre-trained on ImageNet classification task and fine-tuned on 3 different classes in the Wikiart dataset.
