@@ -1,5 +1,0 @@
-#!/usr/bin/env sh
-
-/home/testing/caffe_pruning/build/tools/caffe train \
-    --solver=models/genre_alexnet_finetune/solver_threshold.prototxt \
-    --weights=models/genre_alexnet_finetune/genre_finetune_threshold.caffemodel
