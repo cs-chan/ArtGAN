@@ -5,7 +5,8 @@ In each folder:
 3. {TASK}_val.csv lists the images used in the task for validation.
 4. In the csv files, each row in the list contains (path/to/image.jpg, class_index)
 
-The dataset can be downloaded throught the following [link](https://www.dropbox.com/s/7kh8m3wv9y0efno/wikiart.zip?dl=0)
+The dataset can be downloaded throught the following link:
+(https://www.dropbox.com/s/7kh8m3wv9y0efno/wikiart.zip?dl=0)
 
 Note:
 1. The WikiArt dataset can be used only for non-commercial research purpose.
