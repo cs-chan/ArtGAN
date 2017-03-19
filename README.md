@@ -32,7 +32,7 @@ The codes are based on [caffe](https://github.com/BVLC/caffe).
 <!---
 This repository does not include the Wikiart dataset used. 
 --->
-For the list of the styles, artists, and genres used, please refer to our [ICIP supplementary material](http://www.cs-chan.com/doc/ICIP2016_supp.pdf).
+For the list of the styles, artists, and genres used, please refer to our [ICIP supplementary material](http://web.fsktm.um.edu.my/~cschan/doc/ICIP2016_supp.pdf).
 
 For the details of the WikiArt dataset used in our ICIP2016 paper, please refer to the [WikiArt Dataset](https://github.com/cs-chan/ICIP2016-PC/tree/master/WikiArt%20Dataset) folder.
 
@@ -51,17 +51,17 @@ Option 1:
 ```
 Artist
 ```
-- [Alexnet_Artist_train.caffemodel](http://cs-chan.com/source/ICIP2016/Alexnet_genre_finetune.caffemodel.zip)
+- [Alexnet_Artist_train.caffemodel](http://web.fsktm.um.edu.my/~cschan/source/ICIP2016/Alexnet_genre_finetune.caffemodel.zip)
 
 ```
 Genre
 ```
-- [Alexnet_Genre_train.caffemodel](http://cs-chan.com/source/ICIP2016/Alexnet_genre_finetune.caffemodel.zip)
+- [Alexnet_Genre_train.caffemodel](http://web.fsktm.um.edu.my/~cschan/source/ICIP2016/Alexnet_genre_finetune.caffemodel.zip)
 
 ```
 Style
 ```
-- [Alexnet_Style_train.caffemodel](http://cs-chan.com/source/ICIP2016/Alexnet_style_finetune.caffemodel.zip)
+- [Alexnet_Style_train.caffemodel](http://web.fsktm.um.edu.my/~cschan/source/ICIP2016/Alexnet_style_finetune.caffemodel.zip)
 
 
 Option 2: 
