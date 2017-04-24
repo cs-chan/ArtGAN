@@ -6,7 +6,7 @@ In each folder:
 4. In the csv files, each row in the list contains (path/to/image.jpg, class_index)
 
 The dataset can be downloaded through the following link:
-(http://www.cs-chan.com/source/ICIP2017/wikiart.zip)
+(http://www.cs-chan.com/source/ICIP2017/wikiart.zip)(Size = 25.4Gb)
 
 Note:
 1. The WikiArt dataset can be used only for non-commercial research purpose.
