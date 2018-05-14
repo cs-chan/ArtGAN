@@ -10,7 +10,7 @@ These are the implementations of our:
 
 *ICIP-16 work with titled [Ceci n'est pas une pipe: A Deep Convolutional Network for Fine-art Paintings Classification](http://web.fsktm.um.edu.my/~cschan/doc/ICIP2016.pdf).
 
-*ICIP-17 work with titled [Ceci n'est pas une pipe: A Deep Convolutional Network for Fine-art Paintings Classification](http://web.fsktm.um.edu.my/~cschan/doc/ICIP2016.pdf).
+*ICIP-17 work with titled [ArtGAN: Artwork Synthesis with Conditional Categorial GANs](https://arxiv.org/abs/1702.03410).
 
 The project is open source under BSD-3 license (see the `LICENSE` file). Codes can be used freely only for academic purpose.
 
