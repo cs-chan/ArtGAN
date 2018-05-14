@@ -2,9 +2,15 @@
 
 Released on December 20, 2016
 
+Updated on May 15, 2018 (merge ArtGAN implementation)
+
 ## Description
 
-This is the implementation of our ICIP-16 work with titled [Ceci n'est pas une pipe: A Deep Convolutional Network for Fine-art Paintings Classification](http://web.fsktm.um.edu.my/~cschan/doc/ICIP2016.pdf).
+These are the implementations of our:
+
+*ICIP-16 work with titled [Ceci n'est pas une pipe: A Deep Convolutional Network for Fine-art Paintings Classification](http://web.fsktm.um.edu.my/~cschan/doc/ICIP2016.pdf).
+
+*ICIP-17 work with titled [Ceci n'est pas une pipe: A Deep Convolutional Network for Fine-art Paintings Classification](http://web.fsktm.um.edu.my/~cschan/doc/ICIP2016.pdf).
 
 The project is open source under BSD-3 license (see the `LICENSE` file). Codes can be used freely only for academic purpose.
 
