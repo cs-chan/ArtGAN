@@ -1,6 +1,6 @@
 # ArtGAN
 
-Under construction...... (All codes are uploaded, though.)
+This is implementation of our ICIP2017 paper with titled [ArtGAN: Artwork Synthesis with Conditional Categorial GANs]("https://arxiv.org/abs/1702.03410".
 
 # Citation
 This repository contains codes for the following paper (under review):
