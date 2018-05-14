@@ -1,4 +1,4 @@
-# ICIP2016-Fine Art Painting Classification
+# Fine Art Painting Classification
 
 Released on December 20, 2016
 
