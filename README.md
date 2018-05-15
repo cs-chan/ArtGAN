@@ -1,8 +1,8 @@
 # Fine Art Painting Classification
 
-Released on December 20, 2016
-
 Updated on May 15, 2018 (merge ArtGAN implementation)
+
+Released on December 20, 2016
 
 ## Description
 
