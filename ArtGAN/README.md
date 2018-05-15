@@ -15,11 +15,13 @@ This repository contains codes for the following paper (under review):
 ```
 which is an extension to the following paper (ICIP 2017): 
 ```
-@article{tan2017artgan,
-  title={ArtGAN: Artwork Synthesis with Conditional Categorial GANs},
-  author={Tan, Wei Ren and Chan, Chee Seng and Aguirre, Hernan and Tanaka, Kiyoshi},
-  journal={arXiv preprint arXiv:1702.03410},
-  year={2017}
+@inproceedings{TanCAT17,
+  author    = {Tan, Wei Ren and Chan, Chee Seng and Aguirre, Hernan and Tanaka, Kiyoshi},
+  title     = {ArtGAN: Artwork synthesis with conditional categorical GANs},
+  booktitle = {{IEEE} International Conference on Image Processing {ICIP}},
+  pages     = {3760--3764},
+  year      = {2017},
+  doi       = {10.1109/ICIP.2017.8296985},
 }
 ```
 
