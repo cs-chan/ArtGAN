@@ -14,8 +14,6 @@ These are the implementations of our:
 
 <img src="ICIP2016.gif" width="25%">
 
-The project is open source under BSD-3 license (see the `LICENSE` file). Codes can be used freely only for academic purpose.
-
 ## Citation
 If you find this code useful for your research, please cite
 ```
@@ -90,6 +88,6 @@ Suggestions and opinions of this work (both positive and negative) are greatly w
 `wrtan.edu at gmail.com`or `cs.chan at um.edu.my`.
 
 ## License
-BSD-3, see `LICENSE` file for details.
+The project is open source under BSD-3 license (see the `LICENSE` file). Codes can be used freely only for academic purpose.
 
 
