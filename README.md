@@ -12,9 +12,9 @@ These are the implementations of our:
 
 *ICIP-17 work with titled [ArtGAN: Artwork Synthesis with Conditional Categorial GANs](https://arxiv.org/abs/1702.03410). Please refer to the [ArtGAN](https://github.com/cs-chan/Artwork-GAN/tree/master/ArtGAN) folder
 
-The project is open source under BSD-3 license (see the `LICENSE` file). Codes can be used freely only for academic purpose.
-
 <img src="ICIP2016.gif" width="25%">
+
+The project is open source under BSD-3 license (see the `LICENSE` file). Codes can be used freely only for academic purpose.
 
 ## Citation
 If you find this code useful for your research, please cite
