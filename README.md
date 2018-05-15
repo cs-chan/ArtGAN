@@ -10,7 +10,7 @@ These are the implementations of our:
 
 *ICIP-16 work with titled [Ceci n'est pas une pipe: A Deep Convolutional Network for Fine-art Paintings Classification](http://web.fsktm.um.edu.my/~cschan/doc/ICIP2016.pdf).
 
-*ICIP-17 work with titled [ArtGAN: Artwork Synthesis with Conditional Categorial GANs](https://arxiv.org/abs/1702.03410). Please refer to the [ArtGAN](https://github.com/cs-chan/Artwork-GAN/tree/master/ArtGAN) folder
+*ICIP-17 work with titled [ArtGAN: Artwork Synthesis with Conditional Categorial GANs](https://arxiv.org/abs/1702.03410). Please refer to the [ArtGAN](https://github.com/cs-chan/Artwork-GAN/tree/master/ArtGAN) folder.
 
 <img src="ICIP2016.gif" width="25%">
 
