@@ -1,4 +1,4 @@
-# Fine Art Painting Classification
+# Fine Art Painting Synthesis and Classification
 
 Updated on May 15, 2018 (merge ArtGAN implementation)
 
