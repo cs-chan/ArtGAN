@@ -1,4 +1,6 @@
-In order to replicate or to have a fair comparison to our ICIP2016 paper, we created a "new" Wikiart dataset that can be downloaded through the following link:
+# Description
+
+In order to replicate or to have a fair comparison to our ICIP2016 paper, we created a "new" Wikiart dataset that can be downloaded at [this https URL]
 (http://www.cs-chan.com/source/ICIP2017/wikiart.zip) (Size = 25.4Gb). Each folder contains information of the dataset used for each tasks (Style, Artist, and Genre classification).
 In each folder:
 1. {TASK}_class.txt lists the classes and the respective index
