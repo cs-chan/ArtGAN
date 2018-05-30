@@ -35,7 +35,7 @@ which is an extension to the following paper (ICIP 2017):
 
 # Trained models
 
-Each link below is the best trained model for the corresponding dataset:
+Each link below is the best trained model used in our paper for the corresponding dataset:
 
 - CIFAR-10 - available at [this https URL](http://www.cs-chan.com/source/ArtGAN/CIFAR64GANAE.zip)
 
