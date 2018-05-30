@@ -47,7 +47,7 @@ For the full list of paintings used, please refer to [Saleh & Elgammal (2015). L
 ## Installation and Running
 
 1. Users are required to install Caffe Library from https://github.com/BVLC/caffe. 
-2. Users can required to download the Wikiart Dataset provided [here](https://github.com/cs-chan/ICIP2016-PC/tree/master/WikiArt%20Dataset) for a fair comparison to our ICIP2016 paper.
+2. Users can required to download the Wikiart Dataset provided at [this https URL](https://github.com/cs-chan/ICIP2016-PC/tree/master/WikiArt%20Dataset) for a fair comparison to our ICIP2016 paper.
 3. Please choose one of the following options: 
 
 Option 1: 
