@@ -1,4 +1,4 @@
-# Description
+# WikiArt Dataset (Refined)
 
 In order to replicate or to have a fair comparison to our ICIP2016 paper, we created a "new" Wikiart dataset that can be downloaded at [this https URL](http://www.cs-chan.com/source/ICIP2017/wikiart.zip) (Size = 25.4Gb). 
 
