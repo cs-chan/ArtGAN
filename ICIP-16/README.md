@@ -1,6 +1,6 @@
 # Ceci n'est pas une pipe: A deep convolutional network for fine-art paintings classification
 
-Released on Oct 09, 2017.
+Released on December 20, 2016.
 
 ## Description
 
