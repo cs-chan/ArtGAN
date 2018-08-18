@@ -1,5 +1,7 @@
 # ArtGAN Code Release
 
+Updated on May 18, 2018 (Improved ArtGan models are included)
+
 Updated on May 15, 2018 (merge ArtGAN implementation)
 
 Released on December 20, 2016
