@@ -6,7 +6,9 @@ Release on May 20, 2018.
 
 # Description
 
-This is implementation of our T-IP2018 paper with titled [Improved ArtGAN for Conditional Synthesis of Natural Image and Artwork]. ICIP2017 paper with titled [ArtGAN: Artwork Synthesis with Conditional Categorial GANs](https://arxiv.org/abs/1702.03410).
+This is implementation of our TIP-18 (Accepted) work with titled [Improved ArtGAN for Conditional Synthesis of Natural Image and Artwork](coming soon). The preliminary version of this work was presented earlier in ICIP-17 with titled [ArtGAN: Artwork Synthesis with Conditional Categorial GANs](https://arxiv.org/abs/1702.03410). 
+
+<img src="artgan.gif" width="25%">
 
 # Citation
 This repository contains codes for the following paper:
