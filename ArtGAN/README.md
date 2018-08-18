@@ -1,16 +1,22 @@
-# ArtGAN
+# ArtGAN/Improved ArtGAN
 
-This is implementation of our ICIP2017 paper with titled [ArtGAN: Artwork Synthesis with Conditional Categorial GANs](https://arxiv.org/abs/1702.03410).
+Updated on August 18, 2018 (Improved ArtGan models are included)
+
+Release on May 20, 2018.
+
+# Description
+
+This is implementation of our T-IP2018 paper with titled [Improved ArtGAN for Conditional Synthesis of Natural Image and Artwork]. ICIP2017 paper with titled [ArtGAN: Artwork Synthesis with Conditional Categorial GANs](https://arxiv.org/abs/1702.03410).
 
 # Citation
-This repository contains codes for the following paper (under review):
+This repository contains codes for the following paper:
 
 ```
 @article{tan2017learning,
-  title={Learning a Generative Adversarial Network for High Resolution Artwork Synthesis},
+  title={Improved ArtGAN for Conditional Synthesis of Natural Image and Artwork},
   author={Tan, Wei Ren and Chan, Chee Seng and Aguirre, Hernan and Tanaka, Kiyoshi},
-  journal={arXiv preprint arXiv:1708.09533},
-  year={2017}
+  journal={IEEE Transactions on Image Processing},
+  year={Accepted}
 }
 ```
 which is an extension to the following paper (ICIP 2017): 
@@ -35,7 +41,7 @@ which is an extension to the following paper (ICIP 2017):
 
 # Trained models
 
-Each link below is the best trained model used in our paper for the corresponding dataset:
+Each link below is the best trained model used in the T-IP paper for the corresponding dataset:
 
 - CIFAR-10 - available at [this https URL](http://www.cs-chan.com/source/ArtGAN/CIFAR64GANAE.zip)
 
