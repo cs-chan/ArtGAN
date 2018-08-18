@@ -76,3 +76,10 @@ Option 2:
 *Note that users are expected to modify the corresponding files to the correct path to work properly. 
 
 Enjoy! :P
+
+## Feedback
+Suggestions and opinions of this work (both positive and negative) are greatly welcome. Please contact the authors by sending email to
+`wrtan.edu at gmail.com`or `cs.chan at um.edu.my`.
+
+## License
+The project is open source under BSD-3 license (see the `LICENSE` file). Codes can be used freely only for academic purpose.
