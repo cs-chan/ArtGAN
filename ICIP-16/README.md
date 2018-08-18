@@ -4,9 +4,9 @@ Released on Oct 09, 2017.
 
 ## Description
 
-This is the implementation of our ICIP2017 work with titled -- [Ceci n'est pas une pipe: {A} deep convolutional network for fine-art paintings classification](http://cs-chan.com/doc/ICIP_CR.pdf).
+This is the implementation of our ICIP2017 work with titled -- [Ceci n'est pas une pipe: A Deep Convolutional Network for Fine-art Paintings Classification](http://web.fsktm.um.edu.my/~cschan/doc/ICIP2016.pdf).
 
-![demo1](GIF/ex1.JPG) ![demo](GIF/HGO.gif)
+<img src="ICIP2016.gif" width="25%">
 
 ## Citation
 If you find this code useful for your research, please cite
