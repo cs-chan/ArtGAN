@@ -30,7 +30,7 @@ The codes are based on [caffe](https://github.com/BVLC/caffe).
 <!---
 This repository does not include the Wikiart dataset used. 
 --->
-For the list of the styles, artists, and genres used, please refer to our [ICIP supplementary material](http://web.fsktm.um.edu.my/~cschan/doc/ICIP2016_supp.pdf).
+For the list of the styles, artists, and genres used, please refer to our [ICIP-16 supplementary material](http://web.fsktm.um.edu.my/~cschan/doc/ICIP2016_supp.pdf).
 
 For the details of the WikiArt dataset used in our ICIP-16 paper, please refer to the [WikiArt Dataset](https://github.com/cs-chan/ICIP2016-PC/tree/master/WikiArt%20Dataset) folder.
 
