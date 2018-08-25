@@ -16,11 +16,12 @@ The details of the model settings and training scheme can be found at [this PDF]
 This repository contains codes for the following paper:
 
 ```
-@article{tan2017learning,
+@article{artgan2018,
   title={Improved ArtGAN for Conditional Synthesis of Natural Image and Artwork},
   author={Tan, Wei Ren and Chan, Chee Seng and Aguirre, Hernan and Tanaka, Kiyoshi},
   journal={IEEE Transactions on Image Processing},
-  year={Accepted}
+  year={Accepted},
+  doi={https://doi.org/10.1109/TIP.2018.2866698},
 }
 ```
 which is an extension to the following paper (ICIP 2017): 
