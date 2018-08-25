@@ -8,7 +8,7 @@ Released on May 20, 2018.
 
 This is implementation of our TIP-18 (accepted) work with titled [Improved ArtGAN for Conditional Synthesis of Natural Image and Artwork](https://arxiv.org/abs/1708.09533). The preliminary version of this work was presented earlier in ICIP-17 with titled [ArtGAN: Artwork Synthesis with Conditional Categorial GANs](https://arxiv.org/abs/1702.03410). 
 
-The details of the model settings and training scheme can be found at [this PDF](coming soon).
+The details of the model settings and training scheme can be found at [this PDF](http://cs-chan.com/doc/ArtGAN_supp.pdf).
 
 <img src="artgan.gif" width="10%">
 
