@@ -14,7 +14,7 @@ This consists of the implementations of our:
 
 * ICIP-16 work with titled [Ceci n'est pas une pipe: A Deep Convolutional Network for Fine-art Paintings Classification](http://web.fsktm.um.edu.my/~cschan/doc/ICIP2016.pdf). Please refer to the [ICIP-16](https://github.com/cs-chan/Artwork-GAN/tree/master/ICIP-16) folder.
 
-<img src="artgann1.gif" width="25%">
+<img src="artgan.gif" width="25%">
 
 ## Feedback
 Suggestions and opinions of this work (both positive and negative) are greatly welcome. Please contact the authors by sending email to
