@@ -2,7 +2,7 @@
 
 Updated on August 18, 2018 (Improved ArtGan models are included)
 
-Release on May 20, 2018.
+Released on May 20, 2018.
 
 # Description
 
@@ -45,7 +45,7 @@ which is an extension to the following paper (ICIP 2017):
 
 # Trained models
 
-Each link below is the best trained model used in the T-IP paper for the corresponding dataset:
+Each link below is the best trained model used in the T-IP paper for the corresponding dataset. Download and extract to "models" folder:
 
 - CIFAR-10 - available at [this https URL](http://www.cs-chan.com/source/ArtGAN/CIFAR64GANAE.zip)
 
