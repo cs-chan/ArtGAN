@@ -52,19 +52,19 @@ which is an extension to the following paper (ICIP 2017):
 
 Each link below is the best trained model used in the T-IP paper for the corresponding dataset. Download and extract to "models" folder:
 
-- CIFAR-10 - available at [this https URL](http://www.cs-chan.com/source/ArtGAN/CIFAR64GANAE.zip)
+- CIFAR-10 - available at [this https URL](https://drive.google.com/file/d/1fjBUxRDUrKF2aP44hpuOHEWTiZ0nb0or/view?usp=sharing)
 
-- STL-10 - available at [this https URL](http://www.cs-chan.com/source/ArtGAN/STL128GANAE.zip)
+- STL-10 - available at [this https URL](https://drive.google.com/file/d/1FlOrjEtMJ7bPJ1phg6SXRpie4VIgHv_x/view?usp=sharing)
 
-- Flowers - available at [this https URL](http://www.cs-chan.com/source/ArtGAN/Flower128GANAE.zip)
+- Flowers - available at [this https URL](https://drive.google.com/file/d/13Xo9uPuB8CK0FJPmn3xJ4HX6zNk_dbW1/view?usp=sharing)
 
-- CUB-200 - available at [this https URL](http://www.cs-chan.com/source/ArtGAN/CUB128GANAE.zip)
+- CUB-200 - available at [this https URL](https://drive.google.com/file/d/1S7vlMKXcMF0_DvB1jJ7OPVpKSjDJhPcY/view?usp=sharing)
 
-- Wikiart Artist - available at [this https URL](http://www.cs-chan.com/source/ArtGAN/Artist128GANAE.zip)
+- Wikiart Artist - available at [this https URL](https://drive.google.com/file/d/1S7vlMKXcMF0_DvB1jJ7OPVpKSjDJhPcY/view?usp=sharing)
 
-- Wikiart Genre - available at [this https URL](http://www.cs-chan.com/source/ArtGAN/Genre128GANAE.zip)
+- Wikiart Genre - available at [this https URL](https://drive.google.com/file/d/1vnkKjAUbbPuAxZNjhj48Sr8GhG1cZBDZ/view?usp=sharing)
 
-- Wikiart Style - available at [this https URL](http://www.cs-chan.com/source/ArtGAN/Style128GANAE.zip)
+- Wikiart Style - available at [this https URL](https://drive.google.com/file/d/1PL9zC9i9Cww8sD2uq00el1fz5HjeTlaP/view?usp=sharing)
 
 # Feedback
 Suggestions and opinions of this work (both positive and negative) are greatly welcome. Please contact the authors by sending email to Wei Ren Tan at `wrtan.edu at gmail.com` or Chee Seng Chan at `cs.chan at um.edu.my`
