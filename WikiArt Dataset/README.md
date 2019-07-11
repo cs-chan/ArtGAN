@@ -14,5 +14,5 @@ and the csv file can be downloaded at [this https URL](http://web.fsktm.um.edu.m
 
 Note:
 1. The WikiArt dataset can be used only for non-commercial research purpose.
-2. The images in the WikiArt dataset were obtained from WikiArt.org. The authors are not responsible for the content nor the meaning of these images.
+2. The images in the WikiArt dataset were obtained from WikiArt.org. The authors are neither responsible for the content nor the meaning of these images.
 3. By using the WikiArt dataset, you agree to obey the terms and conditions of [WikiArt.org](https://www.wikiart.org/en/terms-of-use).
