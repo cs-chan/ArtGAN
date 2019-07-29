@@ -3,7 +3,7 @@ from layers import conv2d, linear, nnupsampling, batchnorm, pool
 from activations import lrelu
 import numpy as np
 from utils import drawblock, createfolders
-from scipy.misc import imsave
+from imageio import imsave
 import os
 
 

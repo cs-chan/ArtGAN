@@ -6,7 +6,7 @@ from data_loader import train_loader, validation_loader
 from neon.backends import gen_backend
 import numpy as np
 from utils import drawblock, createfolders, OneHot, image_reshape
-from scipy.misc import imsave
+from imageio import imsave
 import os
 
 
