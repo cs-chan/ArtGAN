@@ -1,6 +1,6 @@
 import tensorflow as tf
-from layers import conv2d, linear, nnupsampling, batchnorm, pool
-from activations import lrelu
+from nn.layers import conv2d, linear, nnupsampling, batchnorm, pool
+from nn.activations import lrelu
 import numpy as np
 from utils import drawblock, createfolders
 from scipy.misc import imsave
