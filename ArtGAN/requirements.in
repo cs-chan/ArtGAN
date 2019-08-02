@@ -1,0 +1,4 @@
+scipy
+tensorflow-gpu
+numpy
+imageio
