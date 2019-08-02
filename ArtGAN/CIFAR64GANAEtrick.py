@@ -1,6 +1,6 @@
 import tensorflow as tf
-from layers import conv2d, linear, flatten, nnupsampling, batchnorm, gaussnoise, pool
-from activations import lrelu
+from nn.layers import conv2d, linear, flatten, nnupsampling, batchnorm, gaussnoise, pool
+from nn.activations import lrelu
 from op import log_sum_exp
 from data_loader import train_loader, validation_loader
 from neon.backends import gen_backend
