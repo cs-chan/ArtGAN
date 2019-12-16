@@ -4,19 +4,35 @@
 #
 #    pip-compile requirements.in
 #
-enum34==1.1.6             # via imageio
+absl-py==0.8.1            # via tensorboard, tensorflow-gpu
+astor==0.8.1              # via tensorflow-gpu
+backports.weakref==1.0.post1  # via tensorflow-gpu
+enum34==1.1.6             # via absl-py, grpcio, imageio, tensorflow-gpu
 funcsigs==1.0.2           # via mock
-futures==3.3.0            # via imageio
+functools32==3.2.3.post2  # via tensorflow-gpu
+futures==3.3.0            # via grpcio, imageio, tensorboard
+gast==0.2.2               # via tensorflow-gpu
+google-pasta==0.1.8       # via tensorflow-gpu
+grpcio==1.25.0            # via tensorboard, tensorflow-gpu
+h5py==2.10.0              # via keras-applications
 imageio==2.5.0
+keras-applications==1.0.8  # via tensorflow-gpu
+keras-preprocessing==1.1.0  # via tensorflow-gpu
+markdown==3.1.1           # via tensorboard
 mock==3.0.5               # via tensorflow-gpu
 numpy==1.16.4
+opt-einsum==2.3.2         # via tensorflow-gpu
 pillow==6.2.0             # via imageio
-protobuf==3.9.0           # via tensorflow-gpu
+protobuf==3.9.0           # via tensorboard, tensorflow-gpu
 scipy==1.2.2
-six==1.12.0               # via mock, protobuf, tensorflow-gpu
-tensorflow-gpu==1.1.0
-werkzeug==0.15.5          # via tensorflow-gpu
-wheel==0.33.4             # via tensorflow-gpu
+six==1.12.0               # via absl-py, google-pasta, grpcio, h5py, keras-preprocessing, mock, protobuf, tensorboard, tensorflow-gpu
+tensorboard==1.15.0       # via tensorflow-gpu
+tensorflow-estimator==1.15.1  # via tensorflow-gpu
+tensorflow-gpu==1.15.0
+termcolor==1.1.0          # via tensorflow-gpu
+werkzeug==0.15.5          # via tensorboard
+wheel==0.33.4             # via tensorboard, tensorflow-gpu
+wrapt==1.11.2             # via tensorflow-gpu
 
 # The following packages are considered to be unsafe in a requirements file:
-# setuptools==41.4.0        # via protobuf
+# setuptools
