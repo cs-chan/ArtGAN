@@ -4,35 +4,117 @@
 #
 #    pip-compile requirements.in
 #
-absl-py==0.8.1            # via tensorboard, tensorflow-gpu
-astor==0.8.1              # via tensorflow-gpu
-backports.weakref==1.0.post1  # via tensorflow-gpu
-enum34==1.1.6             # via absl-py, grpcio, imageio, tensorflow-gpu
-funcsigs==1.0.2           # via mock
-functools32==3.2.3.post2  # via tensorflow-gpu
-futures==3.3.0            # via grpcio, imageio, tensorboard
-gast==0.2.2               # via tensorflow-gpu
-google-pasta==0.1.8       # via tensorflow-gpu
-grpcio==1.25.0            # via tensorboard, tensorflow-gpu
-h5py==2.10.0              # via keras-applications
+absl-py==0.13.0
+    # via
+    #   tensorboard
+    #   tensorflow-gpu
+astunparse==1.6.3
+    # via tensorflow-gpu
+cachetools==4.2.2
+    # via google-auth
+certifi==2021.5.30
+    # via requests
+charset-normalizer==2.0.4
+    # via requests
+flatbuffers==1.12
+    # via tensorflow-gpu
+gast==0.4.0
+    # via tensorflow-gpu
+google-auth==1.35.0
+    # via
+    #   google-auth-oauthlib
+    #   tensorboard
+google-auth-oauthlib==0.4.5
+    # via tensorboard
+google-pasta==0.2.0
+    # via tensorflow-gpu
+grpcio==1.34.1
+    # via
+    #   tensorboard
+    #   tensorflow-gpu
+h5py==3.1.0
+    # via tensorflow-gpu
+idna==3.2
+    # via requests
 imageio==2.5.0
-keras-applications==1.0.8  # via tensorflow-gpu
-keras-preprocessing==1.1.0  # via tensorflow-gpu
-markdown==3.1.1           # via tensorboard
-mock==3.0.5               # via tensorflow-gpu
-numpy==1.16.4
-opt-einsum==2.3.2         # via tensorflow-gpu
-pillow==6.2.0             # via imageio
-protobuf==3.9.0           # via tensorboard, tensorflow-gpu
+    # via -r requirements.in
+keras-nightly==2.5.0.dev2021032900
+    # via tensorflow-gpu
+keras-preprocessing==1.1.2
+    # via tensorflow-gpu
+markdown==3.1.1
+    # via tensorboard
+numpy==1.19.5
+    # via
+    #   -r requirements.in
+    #   h5py
+    #   imageio
+    #   keras-preprocessing
+    #   opt-einsum
+    #   scipy
+    #   tensorboard
+    #   tensorflow-gpu
+oauthlib==3.1.1
+    # via requests-oauthlib
+opt-einsum==3.3.0
+    # via tensorflow-gpu
+pillow==6.2.0
+    # via imageio
+protobuf==3.17.3
+    # via
+    #   tensorboard
+    #   tensorflow-gpu
+pyasn1==0.4.8
+    # via
+    #   pyasn1-modules
+    #   rsa
+pyasn1-modules==0.2.8
+    # via google-auth
+requests==2.26.0
+    # via
+    #   requests-oauthlib
+    #   tensorboard
+requests-oauthlib==1.3.0
+    # via google-auth-oauthlib
+rsa==4.7.2
+    # via google-auth
 scipy==1.2.2
-six==1.12.0               # via absl-py, google-pasta, grpcio, h5py, keras-preprocessing, mock, protobuf, tensorboard, tensorflow-gpu
-tensorboard==1.15.0       # via tensorflow-gpu
-tensorflow-estimator==1.15.1  # via tensorflow-gpu
-tensorflow-gpu==1.15.0
-termcolor==1.1.0          # via tensorflow-gpu
-werkzeug==0.15.5          # via tensorboard
-wheel==0.33.4             # via tensorboard, tensorflow-gpu
-wrapt==1.11.2             # via tensorflow-gpu
+    # via -r requirements.in
+six==1.15.0
+    # via
+    #   absl-py
+    #   astunparse
+    #   google-auth
+    #   google-pasta
+    #   grpcio
+    #   keras-preprocessing
+    #   protobuf
+    #   tensorflow-gpu
+tensorboard==2.6.0
+    # via tensorflow-gpu
+tensorboard-data-server==0.6.1
+    # via tensorboard
+tensorboard-plugin-wit==1.8.0
+    # via tensorboard
+tensorflow-estimator==2.5.0
+    # via tensorflow-gpu
+tensorflow-gpu==2.5.1
+    # via -r requirements.in
+termcolor==1.1.0
+    # via tensorflow-gpu
+typing-extensions==3.7.4.3
+    # via tensorflow-gpu
+urllib3==1.26.6
+    # via requests
+werkzeug==0.15.5
+    # via tensorboard
+wheel==0.37.0
+    # via
+    #   astunparse
+    #   tensorboard
+    #   tensorflow-gpu
+wrapt==1.12.1
+    # via tensorflow-gpu
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
