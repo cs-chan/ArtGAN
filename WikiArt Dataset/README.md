@@ -10,7 +10,7 @@ In each folder:
 2. {TASK}_train.csv lists the images used in the task for training.
 3. {TASK}_val.csv lists the images used in the task for validation.
 
-and the csv file can be downloaded at [this https URL](http://web.fsktm.um.edu.my/~cschan/source/ICIP2017/wikiart_csv.zip). In the csv files, each row in the list contains (path/to/image.jpg, class_index)
+and the csv file can be downloaded at [this https URL](https://drive.google.com/file/d/1AuuWgyZnOB3mR8S7rXEVUrdzMTa6NaH1/view?usp=sharing). In the csv files, each row in the list contains (path/to/image.jpg, class_index)
 
 Note:
 1. The WikiArt dataset can be used only for non-commercial research purpose.
