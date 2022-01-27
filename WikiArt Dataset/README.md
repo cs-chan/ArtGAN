@@ -1,6 +1,6 @@
 # WikiArt Dataset (Refined)
 
-In order to replicate or to have a fair comparison to our ICIP2016 paper, we created a "new" Wikiart dataset that can be downloaded at [this https URL](http://web.fsktm.um.edu.my/~cschan/source/ICIP2017/wikiart.zip) (Size = 25.4Gb). 
+In order to replicate or to have a fair comparison to our ICIP2016 paper, we created a "new" Wikiart dataset that can be downloaded at [this https URL](https://drive.google.com/file/d/182-pFiKvXPB25DbTfAYjJ6gDE-ZCRXz0/view?usp=sharing) (Size = 25.4Gb). 
 
 Each folder contains information of the dataset used for each tasks (Style, Artist, and Genre classification).
 
