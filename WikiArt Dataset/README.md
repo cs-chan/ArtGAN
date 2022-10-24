@@ -16,3 +16,20 @@ Note:
 1. The WikiArt dataset can be used only for non-commercial research purpose.
 2. The images in the WikiArt dataset were obtained from WikiArt.org. The authors are neither responsible for the content nor the meaning of these images.
 3. By using the WikiArt dataset, you agree to obey the terms and conditions of [WikiArt.org](https://www.wikiart.org/en/terms-of-use).
+
+# Citation
+Shall you use our refined Wikiart dataset, please cite the following paper:
+
+```
+@article{artgan2018,
+  title={Improved ArtGAN for Conditional Synthesis of Natural Image and Artwork},
+  author={Tan, Wei Ren and Chan, Chee Seng and Aguirre, Hernan and Tanaka, Kiyoshi},
+  journal={IEEE Transactions on Image Processing},
+  volume    = {28},
+  number    = {1},
+  pages     = {394--409},
+  year      = {2019},
+  url       = {https://doi.org/10.1109/TIP.2018.2866698},
+  doi       = {10.1109/TIP.2018.2866698}
+}
+```
