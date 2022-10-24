@@ -10,9 +10,11 @@ Released on December 20, 2016
 
 This consists of the implementations of our:
 
-* TIP-19 work with titled [Improved ArtGAN for Conditional Synthesis of Natural Image and Artwork](https://arxiv.org/abs/1708.09533). The preliminary version of this work was presented earlier in ICIP-17 with titled [ArtGAN: Artwork Synthesis with Conditional Categorial GANs](https://arxiv.org/abs/1702.03410). Please refer to the [ArtGAN](https://github.com/cs-chan/Artwork-GAN/tree/master/ArtGAN) folder.
+* TIP-19 work with titled [Improved ArtGAN for Conditional Synthesis of Natural Image and Artwork](https://arxiv.org/abs/1708.09533). The preliminary version of this work was presented earlier in ICIP-17 with titled [ArtGAN: Artwork Synthesis with Conditional Categorial GANs](https://arxiv.org/abs/1702.03410). Please refer to the [ArtGAN](https://github.com/cs-chan/Artwork-GAN/tree/master/ArtGAN) folder; 
 
-* ICIP-16 work with titled [Ceci n'est pas une pipe: A Deep Convolutional Network for Fine-art Paintings Classification](http://web.fsktm.um.edu.my/~cschan/doc/ICIP2016.pdf). Please refer to the [ICIP-16](https://github.com/cs-chan/Artwork-GAN/tree/master/ICIP-16) folder.
+* ICIP-16 work with titled [Ceci n'est pas une pipe: A Deep Convolutional Network for Fine-art Paintings Classification](http://web.fsktm.um.edu.my/~cschan/doc/ICIP2016.pdf). Please refer to the [ICIP-16](https://github.com/cs-chan/Artwork-GAN/tree/master/ICIP-16) folder; and
+
+* WikiArt (Refined) Dataset. Please refer to the [ArtGAN](https://github.com/cs-chan/Artwork-GAN/tree/master/ArtGAN) folder.
 
 <img src="artgan.gif" width="25%">
 
