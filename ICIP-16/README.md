@@ -11,17 +11,16 @@ This is the implementation of our ICIP-16 work with titled -- [Ceci n'est pas un
 ## Citation
 If you find this code useful for your research, please cite
 ```
-@inproceedings{TanICIP16,
-  author    = {Wei Ren Tan and
-               Chee Seng Chan and
-               Hern{\'{a}}n E. Aguirre and
-               Kiyoshi Tanaka},
-  title     = {Ceci n'est pas une pipe: {A} deep convolutional network for fine-art
-               paintings classification},
-  booktitle = {IEEE International Conference on Image Processing {ICIP}},
-  pages     = {3703--3707},
-  year      = {2016},
-  doi       = {10.1109/ICIP.2016.7533051},
+@article{artgan2018,
+  title={Improved ArtGAN for Conditional Synthesis of Natural Image and Artwork},
+  author={Tan, Wei Ren and Chan, Chee Seng and Aguirre, Hernan and Tanaka, Kiyoshi},
+  journal={IEEE Transactions on Image Processing},
+  volume    = {28},
+  number    = {1},
+  pages     = {394--409},
+  year      = {2019},
+  url       = {https://doi.org/10.1109/TIP.2018.2866698},
+  doi       = {10.1109/TIP.2018.2866698}
 }
 ```
 
