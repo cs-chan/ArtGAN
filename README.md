@@ -12,7 +12,7 @@ This consists of the implementations of our:
 
 * WikiArt (Refined) Dataset. Please refer to the [WikiArt Dataset](https://github.com/cs-chan/ArtGAN/tree/master/WikiArt%20Dataset) folder;
 
-* TIP-19 work with titled [Improved ArtGAN for Conditional Synthesis of Natural Image and Artwork](https://arxiv.org/abs/1708.09533). The preliminary version of this work was presented earlier in ICIP-17 with titled [ArtGAN: Artwork Synthesis with Conditional Categorial GANs](https://arxiv.org/abs/1702.03410). Please refer to the [ArtGAN](https://github.com/cs-chan/Artwork-GAN/tree/master/ArtGAN) folder; and
+* TIP-19 work with titled [Improved ArtGAN for Conditional Synthesis of Natural Image and Artwork](https://arxiv.org/abs/1708.09533). Please refer to the [ArtGAN](https://github.com/cs-chan/Artwork-GAN/tree/master/ArtGAN) folder; and
 
 * ICIP-16 work with titled [Ceci n'est pas une pipe: A Deep Convolutional Network for Fine-art Paintings Classification](http://web.fsktm.um.edu.my/~cschan/doc/ICIP2016.pdf). Please refer to the [ICIP-16](https://github.com/cs-chan/Artwork-GAN/tree/master/ICIP-16) folder.
 
