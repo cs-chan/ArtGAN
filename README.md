@@ -14,7 +14,7 @@ This consists of the implementations of our:
 
 * ICIP-16 work with titled [Ceci n'est pas une pipe: A Deep Convolutional Network for Fine-art Paintings Classification](http://web.fsktm.um.edu.my/~cschan/doc/ICIP2016.pdf). Please refer to the [ICIP-16](https://github.com/cs-chan/Artwork-GAN/tree/master/ICIP-16) folder; and
 
-* WikiArt (Refined) Dataset. Please refer to the [ArtGAN](https://github.com/cs-chan/Artwork-GAN/tree/master/ArtGAN) folder.
+* WikiArt (Refined) Dataset. Please refer to the [WikiArt Dataset]([https://github.com/cs-chan/Artwork-GAN/tree/master/ArtGAN](https://github.com/cs-chan/ArtGAN/tree/master/WikiArt%20Dataset)) folder.
 
 <img src="artgan.gif" width="25%">
 
