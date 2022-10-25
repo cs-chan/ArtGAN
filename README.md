@@ -24,7 +24,7 @@ This consists of the implementations of our:
 
 ## Feedback
 Suggestions and opinions of this work (both positive and negative) are greatly welcome. Please contact the authors by sending email to
-`wrtan.edu at gmail.com`or `cs.chan at um.edu.my`.
+`wrtan.edu at gmail.com` or `cs.chan at um.edu.my`.
 
 ## License
 The project is open source under BSD-3 license (see the `LICENSE` file). Codes can be used freely only for academic purpose.
