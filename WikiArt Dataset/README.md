@@ -1,6 +1,6 @@
 # WikiArt Dataset (Refined)
 
-In order to replicate or to have a fair comparison to our paper, we created a "new" Wikiart dataset that can be downloaded at [this https URL](https://drive.google.com/file/d/1vTChp3nU5GQeLkPwotrybpUGUXj12BTK/view?usp=drivesdk) (Size = 25.4Gb). 
+In order to replicate or to have a fair comparison to our paper, we created a "new" Wikiart dataset that can be downloaded at [this https URL1](https://drive.google.com/file/d/1vTChp3nU5GQeLkPwotrybpUGUXj12BTK/view?usp=drivesdk) or [this https URL2](http://web.fsktm.um.edu.my/~cschan/source/ICIP2017/wikiart.zip) (Size = 25.4Gb). 
 
 <p align="center"> <img src="port.gif" width="30%"> </p>
 <p align="center"> Figure 1: Iteration of the portrait generation by ArtGAN++</p>
