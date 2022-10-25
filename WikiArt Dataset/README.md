@@ -2,7 +2,8 @@
 
 In order to replicate or to have a fair comparison to our ICIP2016 paper, we created a "new" Wikiart dataset that can be downloaded at [this https URL](https://drive.google.com/file/d/1U6NOx1nwiQL3njfnJbIbgkPy8qeIe7_B/view?usp=sharing) (Size = 25.4Gb). 
 
-<p align="center"> <img src="portrait.gif" width="20%"> </p>
+<p align="center"> <img src="portrait.gif" width="25%"> </p>
+<p align="center"> Figure 1: Iteration of the portrait generation by ArtGAN++</p>
 
 
 # Description
