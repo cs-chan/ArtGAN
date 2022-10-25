@@ -49,7 +49,7 @@ Each link below is the best trained model used in the T-IP paper for the corresp
 
 - CUB-200 - available at [this https URL](https://drive.google.com/file/d/1S7vlMKXcMF0_DvB1jJ7OPVpKSjDJhPcY/view?usp=sharing)
 
-- Wikiart Artist - available at [this https URL](https://drive.google.com/file/d/1Di088ALhqlBwTQOzYdQCmo7XWSCUhf_n/view?usp=sharing)
+- Wikiart Artist - available at [this https URL](https://drive.google.com/file/d/1U6NOx1nwiQL3njfnJbIbgkPy8qeIe7_B/view?usp=sharing)
 
 - Wikiart Genre - available at [this https URL](https://drive.google.com/file/d/1vnkKjAUbbPuAxZNjhj48Sr8GhG1cZBDZ/view?usp=sharing)
 
