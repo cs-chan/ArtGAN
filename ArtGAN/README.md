@@ -1,5 +1,7 @@
 # ArtGAN/Improved ArtGAN
 
+Updated on October 25, 2022 (Wikiart Artist download link is updated)
+
 Updated on August 18, 2018 (Improved ArtGan models are included)
 
 Released on May 20, 2018.
