@@ -1,6 +1,6 @@
 # ArtGAN Code Release
 
-Updated on Oct 25, 2022 (Updated the Wikiart Dataset link)
+Updated on Oct 25, 2022 (Updated the Wikiart Dataset download link)
 
 Updated on May 18, 2018 (Improved ArtGan models are included)
 
