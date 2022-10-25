@@ -6,7 +6,9 @@ Released on December 20, 2016.
 
 This is the implementation of our ICIP-16 work with titled -- [Ceci n'est pas une pipe: A Deep Convolutional Network for Fine-art Paintings Classification](http://web.fsktm.um.edu.my/~cschan/doc/ICIP2016.pdf).
 
-<img src="ICIP2016.gif" width="25%">
+
+<p align="center"> <img src="ICIP2016.gif" width="25%"> </p>
+<p align="center"> Figure 1:  Visualization of neurons’ response in the genre classification task. </p>
 
 ## Citation
 If you find this code useful for your research, please cite
