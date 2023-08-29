@@ -12,11 +12,11 @@ This is the implementation of our ICIP-16 work with titled -- [Ceci n'est pas un
 
 ## Citation
 If you find this code useful for your research, please cite
-```
+```bibtex
 @article{artgan2018,
-  title={Improved ArtGAN for Conditional Synthesis of Natural Image and Artwork},
-  author={Tan, Wei Ren and Chan, Chee Seng and Aguirre, Hernan and Tanaka, Kiyoshi},
-  journal={IEEE Transactions on Image Processing},
+  title = {Improved ArtGAN for Conditional Synthesis of Natural Image and Artwork},
+  author = {Tan, Wei Ren and Chan, Chee Seng and Aguirre, Hernan and Tanaka, Kiyoshi},
+  journal = {IEEE Transactions on Image Processing},
   volume    = {28},
   number    = {1},
   pages     = {394--409},
