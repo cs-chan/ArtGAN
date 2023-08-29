@@ -20,7 +20,7 @@ The details of the model settings and training scheme can be found at [this PDF]
 # Citation
 This repository contains codes for the following paper:
 
-```
+```bibtex
 @article{artgan2018,
   title={Improved ArtGAN for Conditional Synthesis of Natural Image and Artwork},
   author={Tan, Wei Ren and Chan, Chee Seng and Aguirre, Hernan and Tanaka, Kiyoshi},
