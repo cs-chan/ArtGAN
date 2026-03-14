@@ -1,7 +1,7 @@
 0 Abstract_Expressionism
 1 Action_painting
 2 Analytical_Cubism
-3 Art_Nouveau
+3 Art_Nouveau_Modern
 4 Baroque
 5 Color_Field_Painting
 6 Contemporary_Realism
